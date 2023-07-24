@@ -1,0 +1,22 @@
+body{
+    display: flex;
+}
+#left-column, #right-column{
+    margin-right: 40px;
+
+    display: inline-block;
+}
+
+li{
+    margin-bottom: 8px;
+
+    font-size: 20px;
+}
+
+#latin{
+    list-style-type: lower-latin;
+}
+
+#roman{
+    list-style-type: lower-roman;
+}
